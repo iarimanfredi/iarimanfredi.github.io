@@ -1,8 +1,11 @@
 body {
-	background-color: lightyellow;
+	background-color: snow;
+	font-family: Garamond, monospace;
+	color: dimgrey;
 }
 
-h1 {
-	color: white;
-	background-color: lightseagreen;
+h2 {
+	color: snow;
+	background-color: cadetblue;
+	font-size: 200%;
 }
