@@ -2,13 +2,13 @@ body {
 	background-color: snow;
 	font-family: Garamond, monospace;
 	color: dimgrey;
+	text-align: center;
 }
 
 h2 {
 	color: snow;
 	background-color: cadetblue;
-	font-size: 200%;
-	text-align: center;
+	font-size: 32px;
 }
 
 table {
@@ -18,7 +18,7 @@ table {
 }
 
 p {
-	text-align: center;
+	font-size: 16px;
 }
 
 img {
