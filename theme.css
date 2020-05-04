@@ -3,7 +3,7 @@ body {
 	font-family: Garamond, monospace;
 	color: dimgrey;
 	text-align: center;
-	padding: 10%;
+	padding: 25%;
 	padding-top: 0%;
 	padding-bottom: 0%;
 
@@ -24,8 +24,8 @@ table {
 
 p {
 	font-size: 16px;
+	text-align: left;
 }
-
 
 .lagoTramonto {
 	height: 256px;
