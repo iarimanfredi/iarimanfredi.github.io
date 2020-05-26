@@ -15,11 +15,11 @@ h1 {
 	font-size: 32px;
 }
 
-table {
+/*table {
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 16px;
+	font-size: 16px;*/
 }
 
 p {
@@ -27,11 +27,21 @@ p {
 	text-align: left;
 }
 
+nav {
+	font-size: 18px;
+	background-color: snow;
+}
+
+nav a {
+	color: dimgrey;
+	padding: 30px;
+}
+
 #listLeft {
 	text-align: left;
 }
 
-.lagoTramonto {
+/*.lagoTramonto {
 	height: 256px;
 	width: 384px;
-}
+}*/

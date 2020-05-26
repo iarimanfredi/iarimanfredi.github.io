@@ -2,34 +2,54 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<link rel='icon' type='image/jpg' sizes='any' href='./pic/icon.jpg'>
+		<link rel="icon" type="image/jpg" sizes="any" href="./pic/icon.jpg">
 		<title>Amazing Pictures</title>
-		<link rel='stylesheet' type='text/css' href='./theme.css'>
+		<link rel="stylesheet" type="text/css" href="./theme.css">
 		<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	</head>
 	<body>
-		<h1>Amazing Pictures</h1>
+		<nav>
+			<a href="./index.html">Home</a>
+			<a href="#">Gallery</a>
+			<a href="#">About</a>		
+		</nav>
+		<nav>
+			<h1>Amazing Pictures</h1>
+		</nav>
 		<p>
 			Amazing Pictures è una pagina interamente dedicata alla condivisione di una raccolta personale delle fotografie preferite:
-			<ol id='listLeft'>
+			<ol id="listLeft">
 				<li>Una breve didascalia accompagnerà gli scatti fornendone la descrizione;</li>
 				<li>Basterà un click sulla foto scelta per il reindirizzamento alla pagina originale.</li>
 			</ol>
 		</p>
-		<p>
-			<table border='1'>
-				<caption><h5>Soggetti trattati</h5></caption>
-				<tbody>
-					<tr><td>Paesaggi</td><td>Persone</td><td>Edifici o stanze</td><td>Altro</td></tr>
-				</tbody>
-			</table>
-		</p>
 		<!-- La larghezza è fissa 384 -->
 			<br>
-			<a href='https://www.jovittorio.com/fotografare-i-paesaggi/'><img src='./pic/lago-tramonto.jpg' alt='Lago al tramonto' class='lagoTramonto'></a>
+			<!--
+			<a href="https://www.jovittorio.com/fotografare-i-paesaggi/"><img src="./pic/lago-tramonto.jpg" alt="Lago al tramonto" class="lagoTramonto"></a>
 			<br>
-			<small><i>Un lago montano al tramonto.</i></small>
+			<small><i>Un suggestivo lago montano al tramonto.</i></small>-->
+			<div class="card-deck">
+				<div class="card text-center" style="width: 18rem;">
+					<img src="./pic/lago-tramonto.jpg" class="card-img-top" alt="Lago al tramonto">
+					<div class="card-body">
+						<!--<h5 class="card-title">...</h5>-->
+						<p class="card-text" style="font-size: 15px; text-align: center;">Un suggestivo lago montano al tramonto.</p>
+						<a href="https://www.jovittorio.com/fotografare-i-paesaggi/" class="btn btn-primary"><i>Autore</i></a>
+					</div>
+				</div>
+
+				<div class="card text-center" style="width: 18rem;">
+					<img src="./pic/casa-montagna.jpg" class="card-img-top" alt="Casupola montanara">
+					<div class="card-body">
+						<!--<h5 class="card-title">...</h5>-->
+						<p class="card-text" style="font-size: 15px; text-align: center;">Una casetta di legno, in alta montagna.</p>
+						<a href="https://www.pourfemme.it/foto/paesaggi-di-montagna-piu-belli-al-mondo_175889.html" class="btn btn-primary"><i>Autore</i></a>
+					</div>
+				</div>
+			</div>
+
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
