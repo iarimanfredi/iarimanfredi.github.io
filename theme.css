@@ -29,11 +29,11 @@ p {
 
 nav {
 	font-size: 18px;
-	background-color: snow;
+	background-color: black;
 }
 
 nav a {
-	color: dimgrey;
+	color: snow;
 	padding: 30px;
 }
 
